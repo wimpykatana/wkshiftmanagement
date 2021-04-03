@@ -1,0 +1,33 @@
+.add-shift,
+.next-prev {
+  width: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+.add-shift {
+  cursor: pointer;
+}
+
+.before-date {
+  order: -1;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.next-date {
+  order: 1;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.date-month-year {
+  flex-grow: 1;
+}

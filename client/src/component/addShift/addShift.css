@@ -1,0 +1,66 @@
+.add-shift-holder {
+  background-color: #ededed;
+  padding: 20px;
+}
+
+.add-shift-form-holder {
+  width: 350px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.add-shift-title {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ededed;
+}
+
+.close-add-shift-holder {
+  background-color: #2e2e2e;
+  color: #ededed;
+  border-radius: 50%;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+  text-align: center;
+  top: -11px;
+  left: 96%;
+  cursor: pointer;
+}
+
+.input-holder {
+  width: 100%;
+  padding: 20px 0 15px 0;
+  border-bottom: 1px solid #ededed;
+}
+
+.input-holder > input {
+  width: -webkit-fill-available;
+  padding: 10px;
+  border: 1px solid #ededed;
+  margin-top: 5px;
+}
+
+.input-holder > input#shiftYear {
+  width: 27%;
+}
+
+.input-holder > input#shiftMonth {
+  width: 27%;
+}
+
+.input-holder > input#shiftDay {
+  width: 27%;
+}
+
+.input-holder > input#shiftStart {
+  width: 43%;
+}
+
+.input-holder > input#shiftEnd {
+  width: 43%;
+}
